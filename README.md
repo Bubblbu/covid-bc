@@ -8,11 +8,11 @@ I use the notebook to plot the GIFs image by image.
 
 Something along the lines of
 
-´´´
+```
 convert -set delay '%[fx:t==(n-1) || t==0 ? 350 : 130]' -loop 0 -monitor -layers optimize -resize 900 *.png output.gif
-´´´
+```
 
-using ´ImageMagick´ then produces nice GIFs for me.
+using `ImageMagick` then produces nice GIFs for me.
 
 ## License and Reuse
 
